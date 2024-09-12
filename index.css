@@ -1,21 +1,27 @@
-header {
+body{
+                 
     margin: 0;
     padding: 0;
     border: 0;
+}
+header, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
     height: 20px;
     background-color: green;
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+header{
     font-family: "Courier New", Courier, monospace;
 }
 		
 footer {
-    height: 20px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 15px;
     font-family: "Arial", Courier, monospace;
 }
 
@@ -24,7 +30,7 @@ footer {
     height: auto;
     background-color: blue;
     color: white;
-    width: 30%;
+    width: 37%;
     margin: auto;
     padding: 1px 25px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
