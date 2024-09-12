@@ -1,0 +1,100 @@
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Courier New", Courier, monospace;
+}
+		
+footer {
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Arial", Courier, monospace;
+}
+
+#content
+{
+    height: auto;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin: auto;
+    padding: 1px 25px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#content p{
+    font-size: 25px;
+}
+
+#content .cube{
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+    min-width: 170px;
+    min-height: 170px;
+    border-radius: 2em 10px;
+    border-color: aquamarine;
+    border: 12px solid;
+}
+
+#content a, span{
+    color: red;
+}
+
+#content h2{
+    word-spacing: 12px
+}
+
+#content ul .highlighted{
+    color: aqua;
+    letter-spacing:7px
+}
+
+#content table {
+    width: 150px; 
+    height: 110px; 
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    margin: 7px;
+    float: right;
+}
+
+#content td {
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    text-align:center;
+    vertical-align:bottom;
+    color:white;
+}
+
+#content td.col1 
+{
+    background: green;
+}
+
+#content td.col7 {
+    background: red;
+}
+
+#content li {
+    padding: 5px;
+}
+
+#content section p{
+    margin: 0.5em
+}
+
+#content img {
+    float: right;
+    margin-right:10px;
+}
